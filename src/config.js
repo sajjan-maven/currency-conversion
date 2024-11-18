@@ -1,0 +1,1 @@
+export const currencyAPI = 'https://api.frankfurter.app';

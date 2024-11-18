@@ -1,10 +1,13 @@
 import React from 'react'
+import CurrencyConverter from './components/CurrencyConverter'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-green-500">
-      Hello world!
-    </h1>
+    <div className='min-h-screen bg-gray-100 flex flex-col items-center justify-center'>
+      <div className='container px-4'>
+        <CurrencyConverter />
+      </div>
+    </div>
   )
 }
 

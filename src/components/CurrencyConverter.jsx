@@ -25,7 +25,7 @@ const CurrencyConverter = () => {
             const res = await fetch(`${currencyAPI}/currencies`);
             const data = await res.json();
 
-            setCurrencies(Object.keys(data));
+            setCurrencies(Object?.keys(data));
         } catch (error) {
             console.error("Error Fetching", error);
         }
